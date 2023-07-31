@@ -5,9 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFTutorial"
         mc:Ignorable="d"
-        Title="Database" Height="650" Width="400">
+        Title="Database" Height="600" Width="800">
     <Grid>
-        <DataGrid Name="Inventory">
-        </DataGrid>        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Grid.Row="0">
+            <Image Source="/db 2.png" Width="200" Height="150" Margin="0,10"/>
+            <Button Content="Edit Database" Margin="5"/>
+            <Button Content="Create new Database" Margin="5"/>
+        </StackPanel>
+
+        <DataGrid Name="Inventory" Margin="0,10,0,0" Grid.Row="2">
+        </DataGrid>
     </Grid>
 </Window>
