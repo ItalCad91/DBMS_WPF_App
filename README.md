@@ -14,8 +14,8 @@ Data-Binding table with functional CRUD operations, connected to the local SQL s
 
 ![App Screenshot](./WPFTutorial/HomePage.png)
 ![App Screenshot](./WPFTutorial/LoginForm.png) 
-![App Screenshot](./WPFTutorial/Register.png)
-
+![App Screenshot](./WPFTutorial/Register.png) 
+![App Screenshot](./WPFTutorial/Database.png)
 ## Authors
 
 - [@ItalCad91](https://tinyurl.com/RRsystemPortfolio)
