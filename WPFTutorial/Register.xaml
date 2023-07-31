@@ -1,0 +1,26 @@
+﻿<Window x:Class="WPFTutorial.Register"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFTutorial"
+        mc:Ignorable="d"
+         Title="Registration Form" Height="800" Width="1000" Background="CornflowerBlue">
+    <Border Background="Beige" CornerRadius="40" Margin="50">
+        <StackPanel Margin="20">
+            <Image Source="/db 2.png" Height="206"></Image>
+            <Label Content="Register" Foreground="Black" FontSize="20" HorizontalAlignment="Center"></Label>
+            <Separator Background="Black" Height="3"></Separator>
+            <Label Content="Username:" FontSize="20"/>
+            <TextBox Name="txtUserName" Height="35" />
+            <Label Content="Email: " FontSize="20" />
+            <TextBox Name="txtEmail" Height="35" />
+            <Label Content="Password:" FontSize="20"/>
+            <TextBox Name="txtPassword" Height="35" />
+            <Button Content="Register" Margin="10" Height="30" Width="82" Click="Register_Click"/>
+            <Label Content="Already have an account? Login here" HorizontalAlignment="Center"/>
+            <Button Content="Sign In" Margin="10" Height="30" Width="82" Click="Login_Click"/>
+
+        </StackPanel>
+    </Border>
+</Window>

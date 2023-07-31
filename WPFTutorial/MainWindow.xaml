@@ -1,0 +1,15 @@
+﻿<Window x:Class="WPFTutorial.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFTutorial"
+        mc:Ignorable="d"
+        Title="Data Management System App" Height="650" Width="1000" Background="CornflowerBlue">
+    <Grid>
+        <Image Margin="329,10,329,395" HorizontalAlignment="Center" Source="/db 2.png" Stretch="Fill"/>
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Foreground="White" FontSize="20" Text="Welcome to our Desktop application! Login to start using your personalized Database" VerticalAlignment="Top" Margin="0,270,0,0"/>
+        <Button Content="Login Here" Background="Beige" HorizontalAlignment="Left" Width="80" RenderTransformOrigin="0.464,2.026" Margin="374,366,0,216" Click="Button_Click"/>
+        <Button Content="Register Here" Background="Beige" HorizontalAlignment="Left" Width="80" Margin="541,366,0,216" Click="Button_Click_1" RenderTransformOrigin="-0.861,0.515"/>
+    </Grid>
+</Window>
