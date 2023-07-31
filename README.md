@@ -8,7 +8,7 @@ This is the first release and only the user Authentication with an SQL database 
 
 ## Second Release
 
-Second Release: Data-Binding table with functional CRUD operations.
+Data-Binding table with functional CRUD operations, connected to the local SQL server - database.
 
 ## Screenshots
 
