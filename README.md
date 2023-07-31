@@ -7,7 +7,7 @@ Second Release: Data-Binding table with functional CRUD operations.
 ## Screenshots
 
 ![App Screenshot](./WPFTutorial/HomePage.png)
-![App Screenshot](./WPFTutorial/LoginForm.png)
+![App Screenshot](./WPFTutorial/LoginForm.png) 
 ![App Screenshot](./WPFTutorial/Register.png)
 
 ## Authors
