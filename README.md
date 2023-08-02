@@ -14,8 +14,8 @@ Data-Binding table with functional CRUD operations, connected to the local SQL s
 
 ![App Screenshot](./WPFTutorial/HomePage.png)
 ![App Screenshot](./WPFTutorial/LoginForm.png) 
-![App Screenshot](./WPFTutorial/Register.png) 
-![App Screenshot](./WPFTutorial/Database.png)
+![App Screenshot](./WPFTutorial/Register.png)
+
 ## Authors
 
 - [@ItalCad91](https://tinyurl.com/RRsystemPortfolio)
@@ -23,3 +23,4 @@ Data-Binding table with functional CRUD operations, connected to the local SQL s
 ## License
 
 ©️RRSystems 2023
+"# DBMS_WindowsWPF_App" 

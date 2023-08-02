@@ -59,10 +59,17 @@
     <Compile Include="Database.xaml.cs">
       <DependentUpon>Database.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Edit.xaml.cs">
+      <DependentUpon>Edit.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Register.xaml.cs">
       <DependentUpon>Register.xaml</DependentUpon>
     </Compile>
     <Page Include="Database.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Edit.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

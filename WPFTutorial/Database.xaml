@@ -14,12 +14,12 @@
         </Grid.RowDefinitions>
 
         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Grid.Row="0">
-            <Image Source="/db 2.png" Width="200" Height="150" Margin="0,10"/>
-            <Button Content="Edit Database" Margin="5"/>
-            <Button Content="Create new Database" Margin="5"/>
+            <Image Source="/db 2.png" Width="150" Height="100" Margin="0,10"/>
         </StackPanel>
-
-        <DataGrid Name="Inventory" Margin="0,10,0,0" Grid.Row="2">
+        <Button Content="Edit Database" Margin="548,281,128,126" Click="EditButton" Grid.Row="2" RenderTransformOrigin="1.38,0.9"/>
+        <DataGrid Name="Inventory" Margin="0,10,390,0" Grid.Row="1" Grid.RowSpan="2">
         </DataGrid>
+        <TextBlock HorizontalAlignment="Left" Margin="438,119,0,0" Grid.Row="2" TextWrapping="Wrap" Text="To Edit any data from this database please select the the item that you would like to modify. Then click on Update to modify it." FontSize="20" Foreground="White" FontWeight="Bold" VerticalAlignment="Top" Width="344"/>
+        <Label Content="Welcome To you Database!" HorizontalAlignment="Left" Margin="415,36,0,0" Grid.Row="2" FontSize="30" Foreground="SpringGreen" VerticalAlignment="Top" Width="367"/>
     </Grid>
 </Window>

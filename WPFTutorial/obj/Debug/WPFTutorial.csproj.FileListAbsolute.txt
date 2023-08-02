@@ -20,3 +20,5 @@ C:\Users\ricca\OneDrive\Desktop\College\Focused Tutorials\C#\WPF\WPFTutorial\WPF
 C:\Users\ricca\OneDrive\Desktop\College\Focused Tutorials\C#\WPF\WPFTutorial\WPFTutorial\obj\Debug\Register.baml
 C:\Users\ricca\OneDrive\Desktop\College\Focused Tutorials\C#\WPF\WPFTutorial\WPFTutorial\obj\Debug\Database.g.cs
 C:\Users\ricca\OneDrive\Desktop\College\Focused Tutorials\C#\WPF\WPFTutorial\WPFTutorial\obj\Debug\Database.baml
+C:\Users\ricca\OneDrive\Desktop\College\Focused Tutorials\C#\WPF\WPFTutorial\WPFTutorial\obj\Debug\Edit.g.cs
+C:\Users\ricca\OneDrive\Desktop\College\Focused Tutorials\C#\WPF\WPFTutorial\WPFTutorial\obj\Debug\Edit.baml

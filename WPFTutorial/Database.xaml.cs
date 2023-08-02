@@ -1,46 +1,59 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace WPFTutorial
 {
-    /// <summary>
-    /// Interaction logic for Database.xaml
-    /// </summary>
     public partial class Database : Window
     {
+        private DataTable dataT;
+
         public Database()
         {
             InitializeComponent();
-            binddatagrid();
+            BindDataGrid();
         }
 
-        private void binddatagrid()
+        private void BindDataGrid()
         {
-            SqlConnection connTable = new SqlConnection(); //CREATES A CONNECTION WITH SQL SERVERS
-            connTable.ConnectionString = ConfigurationManager.ConnectionStrings["connectionTable"].ConnectionString;// CONNECTION STRING ACCESED FROM THE App.config FILE
-            connTable.Open();//CONNECTION IS OPEN
-            SqlCommand cmd = new SqlCommand();//CREATES AN SQL COMMAND
+            SqlConnection connTable = new SqlConnection();
+            connTable.ConnectionString = ConfigurationManager.ConnectionStrings["connectionTable"].ConnectionString;
+            connTable.Open();
+            SqlCommand cmd = new SqlCommand();
             cmd.CommandText = "SELECT * FROM dbo.ProductInventory";
             cmd.Connection = connTable;
             SqlDataAdapter dataA = new SqlDataAdapter(cmd);
-            DataTable dataT = new DataTable("ProductInventory");
+            dataT = new DataTable("ProductInventory");
             dataA.Fill(dataT);
 
             Inventory.ItemsSource = dataT.DefaultView;
+        }
+
+        private void EditButton(object sender, RoutedEventArgs e)
+        {
+            DataRowView selectedRow = Inventory.SelectedItem as DataRowView;
+
+            if (selectedRow != null)
+            {
+                // Open the "Edit" window as a dialog and pass the selected row and this Database window reference
+                Edit editWindow = new Edit(selectedRow, this);
+                editWindow.Show();
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Please select an item to edit.");
+            }
+        }
+
+        public void UpdateDataGrid()
+        {
+            // Refresh the DataGrid by fetching the updated data from the database
+            dataT.Clear();
+            BindDataGrid();
         }
     }
 }
