@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFTutorial", "WPFTutorial\WPFTutorial.csproj", "{EDCAEDCC-8B9E-4840-9F18-845A59382F72}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Installer", "Installer\Installer.vdproj", "{28EC7900-1546-4D02-BE17-FB6DE1780FFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{EDCAEDCC-8B9E-4840-9F18-845A59382F72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDCAEDCC-8B9E-4840-9F18-845A59382F72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDCAEDCC-8B9E-4840-9F18-845A59382F72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28EC7900-1546-4D02-BE17-FB6DE1780FFF}.Debug|Any CPU.ActiveCfg = Debug
+		{28EC7900-1546-4D02-BE17-FB6DE1780FFF}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

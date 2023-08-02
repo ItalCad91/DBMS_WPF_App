@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFTutorial"
         mc:Ignorable="d"
-        Title="Edit" Height="800" Width="800" Background="CornflowerBlue">
+        Title="Edit" Height="800" Width="800" Background="CornflowerBlue" SizeToContent="Manual"  WindowState="Maximized">
     <Grid>
         <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Grid.Row="0">
             <Image Source="/db 2.png" Width="150" Height="150" Margin="0,10"/>

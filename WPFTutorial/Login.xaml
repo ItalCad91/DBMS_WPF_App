@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFTutorial"
         mc:Ignorable="d"
-        Title="Login Form" Height="700" Width="1000" Background="CornflowerBlue">
+        Title="Login Form" Height="700" Width="1000" Background="CornflowerBlue" SizeToContent="Manual" WindowState="Maximized">
     <Border Background="Beige" CornerRadius="40" Margin="50">
         <StackPanel Margin="20">
             <Image Source="/db 2.png" Height="206"></Image>
