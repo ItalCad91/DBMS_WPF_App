@@ -1,8 +1,9 @@
 # DBMS_WPF_App
 
-This is a C# WPF application, based on the DATABASE MANAGEMENT SYSTEM PROJECT. It is meant to be a PC Desktop application that works just as its web version. 
+This is a C# WPF application based on DATABASE MANAGEMENT SYSTEM PROJECT. The desktop version includes the same full CRUD functionality as the web version, and the installer folder includes the executable for distribution.
 
 ## Demo
+
 ![App Screenshot](./WPFTutorial/Demo.gif)
 
 ## Screenshots
