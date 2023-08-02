@@ -20,6 +20,6 @@
         <DataGrid Name="Inventory" Margin="0,10,390,0" Grid.Row="1" Grid.RowSpan="2">
         </DataGrid>
         <TextBlock HorizontalAlignment="Left" Margin="438,119,0,0" Grid.Row="2" TextWrapping="Wrap" Text="To Edit any data from this database please select the the item that you would like to modify. Then click on Update to modify it." FontSize="20" Foreground="White" FontWeight="Bold" VerticalAlignment="Top" Width="344"/>
-        <Label Content="Welcome To you Database!" HorizontalAlignment="Left" Margin="415,36,0,0" Grid.Row="2" FontSize="30" Foreground="SpringGreen" VerticalAlignment="Top" Width="367"/>
+        <Label Content="Welcome To your Database!" HorizontalAlignment="Left" Margin="415,36,0,0" Grid.Row="2" FontSize="30" Foreground="SpringGreen" VerticalAlignment="Top" Width="367"/>
     </Grid>
 </Window>
